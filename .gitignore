@@ -1,0 +1,123 @@
+# ================================
+# Visual Studio / .NET
+# ================================
+
+.vs/
+.vscode/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.csproj.user
+
+# Visual Studio cache/options
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+*.cache
+*.pdb
+
+# ================================
+# NuGet
+# ================================
+
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.nuget/
+
+# NuGet generated files
+project.assets.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+
+# ================================
+# ASP.NET Core
+# ================================
+
+# User Secrets are stored outside the project,
+# but ignore local secret files if created manually
+secrets.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+Logs/
+*.log
+
+# ================================
+# Database / Local Data
+# ================================
+
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# ================================
+# Publish / Deployment Output
+# ================================
+
+publish/
+Publish/
+artifacts/
+
+# ================================
+# Test / Coverage Output
+# ================================
+
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# ================================
+# JetBrains Rider / ReSharper
+# ================================
+
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ================================
+# Operating System Files
+# ================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
